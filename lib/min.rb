@@ -9,11 +9,5 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  arrayOfFood = []
-  groceries.each do |key, items|
-    items.each do |category, food_item|
-      arrayOfFood << food_item
-    end
-  end
-  m
+   sortedValues = groceries.flatten.sort
 end
