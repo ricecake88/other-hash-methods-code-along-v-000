@@ -9,7 +9,11 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  array = groceries.values
-  sortedArray = array.sort
-  puts sortedArray[0]
+  arrayOfFood = []
+  groceries.each do |key, items|
+    items.each do |category, food_item|
+      arrayOfFood << food_item
+    end
+  end
+  m
 end
