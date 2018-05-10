@@ -9,6 +9,6 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  array = groceries.values
-  puts array.sort
+  array = groceries.values.sort
+  puts array
 end
